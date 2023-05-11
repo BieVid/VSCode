@@ -1,0 +1,141 @@
+body {
+    background-color: #f2f2f2;
+    color: #333;
+    font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+    margin: 0;
+    padding: 0;
+}
+
+em{
+    font-style: italic;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+nav {
+    display:flex;
+    align-items: center;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-bottom: 2px solid #333;
+    justify-content: center;
+    max-width: 650px;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px double;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 5px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+
+nav li {
+    margin-left: 1em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+main {
+    max-width: 960px;
+    margin: 2em auto;
+    padding: 0 2em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    line-height: 1.5;
+    font-size: 1.2em;
+}
+
+section {
+    margin-bottom: 2em;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 2em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: #333;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 0.5em;
+    margin-left: 0;
+}
+h2.titulo_introduccion {padding-top: 40px;
+
+}
+
+
+p {
+    margin-bottom: 1em;
+}
+
+ul {
+    margin-bottom: 1em;
+}
+
+li {
+    padding-left: 1em;
+    text-indent: -1em;
+    position: relative;
+}
+
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #7f5f43;
+}
+
+#introduccion {
+    margin-top: 2em;
+}
+
+#personajes {
+    margin-top: 2em;
+}
+
+#analisis{
+    margin-top: 2em;
+}
+
+#conclusiones{
+    margin-top: 2em;
+}
